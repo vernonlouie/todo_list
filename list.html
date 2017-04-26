@@ -1,0 +1,5 @@
+<h1>List of stuff</h1>
+<!--{{ $ctrl.list }}-->
+<ul>
+    <item-details ng-repeat="listItem in $ctrl.list" item="listItem" on-delete="$ctrl.delete(item)"></item-details>
+</ul>
